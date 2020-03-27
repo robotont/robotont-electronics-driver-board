@@ -1,0 +1,895 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9100 5600 9100 5500
+Wire Wire Line
+	9100 5200 9100 5300
+Wire Wire Line
+	9100 5300 9200 5300
+Wire Wire Line
+	10400 1500 10400 1400
+Wire Wire Line
+	9600 1400 10400 1400
+Wire Wire Line
+	10400 1400 10400 1200
+Connection ~ 10400 1400
+Wire Wire Line
+	6500 4850 6500 4500
+Connection ~ 6500 4500
+Wire Wire Line
+	8500 4400 8500 4500
+Wire Wire Line
+	8500 4500 8500 4600
+Wire Wire Line
+	8500 4500 8400 4500
+Wire Wire Line
+	8400 4500 8400 4600
+Wire Wire Line
+	8500 4500 8600 4500
+Wire Wire Line
+	8600 4500 8600 4600
+Connection ~ 8500 4500
+Wire Wire Line
+	8000 1400 8000 1200
+Wire Wire Line
+	8000 1400 8000 1600
+Wire Wire Line
+	8800 1400 8600 1400
+Wire Wire Line
+	8600 1400 8000 1400
+Wire Wire Line
+	8800 1600 8600 1600
+Wire Wire Line
+	8600 1600 8600 1400
+Connection ~ 8000 1400
+Connection ~ 8600 1400
+Wire Wire Line
+	1000 2000 1000 1900
+Wire Wire Line
+	1000 1900 800  1900
+Wire Wire Line
+	7300 4900 6900 4900
+Wire Wire Line
+	7900 6300 7900 6400
+Wire Wire Line
+	7900 6400 8100 6400
+Wire Wire Line
+	8100 6400 8200 6400
+Wire Wire Line
+	8700 6300 8700 6400
+Wire Wire Line
+	8700 6400 8600 6400
+Wire Wire Line
+	8600 6400 8500 6400
+Wire Wire Line
+	8500 6400 8400 6400
+Wire Wire Line
+	8400 6400 8200 6400
+Wire Wire Line
+	8600 6300 8600 6400
+Wire Wire Line
+	8500 6300 8500 6400
+Wire Wire Line
+	8400 6300 8400 6400
+Wire Wire Line
+	8200 6300 8200 6400
+Wire Wire Line
+	8100 6300 8100 6400
+Wire Wire Line
+	7900 6400 7900 6600
+Wire Wire Line
+	6800 6600 7900 6600
+Connection ~ 8200 6400
+Connection ~ 8600 6400
+Connection ~ 8500 6400
+Connection ~ 8400 6400
+Connection ~ 8100 6400
+Connection ~ 7900 6400
+Wire Wire Line
+	6200 2700 6200 2600
+Wire Wire Line
+	6800 2600 6800 1900
+Wire Wire Line
+	6800 2600 6400 2600
+Wire Wire Line
+	6400 2600 6200 2600
+Wire Wire Line
+	8000 2600 8000 1900
+Wire Wire Line
+	6800 2600 7100 2600
+Wire Wire Line
+	7100 2600 8000 2600
+Wire Wire Line
+	8000 2600 8600 2600
+Wire Wire Line
+	8600 2600 9300 2600
+Wire Wire Line
+	9300 2600 9300 2000
+Wire Wire Line
+	8600 2300 8600 2600
+Wire Wire Line
+	9300 2600 10400 2600
+Wire Wire Line
+	10400 2600 10400 1800
+Wire Wire Line
+	6200 2200 6200 2300
+Wire Wire Line
+	6200 2300 6200 2400
+Wire Wire Line
+	6200 2400 6200 2600
+Wire Wire Line
+	6100 2400 6200 2400
+Wire Wire Line
+	6100 2300 6200 2300
+Wire Wire Line
+	6200 2200 6100 2200
+Wire Wire Line
+	7100 1900 7100 2600
+Connection ~ 6200 2600
+Connection ~ 6800 2600
+Connection ~ 8000 2600
+Connection ~ 8600 2600
+Connection ~ 9300 2600
+Connection ~ 6200 2400
+Connection ~ 6200 2300
+Connection ~ 7100 2600
+Connection ~ 6400 2600
+Wire Wire Line
+	7300 5300 6700 5300
+Wire Wire Line
+	900  1700 900  1300
+Wire Wire Line
+	6500 5150 6500 5600
+Connection ~ 6500 5600
+Wire Wire Line
+	6800 5700 6800 6150
+Wire Wire Line
+	6800 5700 7300 5700
+Wire Wire Line
+	4450 1400 6400 1400
+Wire Wire Line
+	6400 1400 6400 1600
+Wire Wire Line
+	6800 1600 6800 1400
+Wire Wire Line
+	6800 1400 6400 1400
+Wire Wire Line
+	6800 1400 7100 1400
+Wire Wire Line
+	7100 1400 7300 1400
+Wire Wire Line
+	7100 1600 7100 1400
+Connection ~ 6400 1400
+Connection ~ 6800 1400
+Connection ~ 7100 1400
+Wire Wire Line
+	6100 2000 6400 2000
+Wire Wire Line
+	6400 2000 6400 2150
+Wire Wire Line
+	8600 2000 8600 1800
+Wire Wire Line
+	8600 1800 8800 1800
+Wire Wire Line
+	800  2000 900  2000
+Wire Wire Line
+	900  2000 900  2100
+Wire Wire Line
+	4700 2400 4600 2400
+Wire Wire Line
+	4600 2400 4600 2300
+Wire Wire Line
+	4600 2300 4600 2200
+Wire Wire Line
+	4600 2200 4600 2100
+Wire Wire Line
+	4700 2200 4600 2200
+Wire Wire Line
+	4700 2300 4600 2300
+Connection ~ 4600 2200
+Connection ~ 4600 2300
+Wire Wire Line
+	800  1800 1050 1800
+Wire Wire Line
+	1050 1800 1050 1700
+$Comp
+L Device:R R5
+U 1 1 9DDF1806
+P 1200 2000
+F 0 "R5" H 1050 2059 59  0000 L BNN
+F 1 "560" H 1050 1870 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1200 2000 50  0001 C CNN
+F 3 "" H 1200 2000 50  0001 C CNN
+	1    1200 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 0C5C1A5B
+P 1200 1700
+F 0 "R6" H 1050 1759 59  0000 L BNN
+F 1 "560" H 1050 1570 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1200 1700 50  0001 C CNN
+F 3 "" H 1200 1700 50  0001 C CNN
+	1    1200 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 6C012852
+P 6900 4700
+F 0 "R7" H 6750 4759 59  0000 L BNN
+F 1 "10k" H 6750 4570 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6900 4700 50  0001 C CNN
+F 3 "" H 6900 4700 50  0001 C CNN
+	1    6900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L robotont-motor-board-eagle-import:DMS3015SSS-13 U1
+U 1 1 F9562130
+P 5400 2300
+F 0 "U1" H 5187 2664 69  0000 L BNN
+F 1 "DMS3015SSS-13" H 5226 1693 69  0000 L BNN
+F 2 "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm" H 5400 2300 50  0001 C CNN
+F 3 "" H 5400 2300 50  0001 C CNN
+	1    5400 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 09CD1EDC
+P 8000 1750
+F 0 "C5" H 8060 1765 59  0000 L BNN
+F 1 "10uF" H 8060 1565 59  0000 L BNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8000 1750 50  0001 C CNN
+F 3 "" H 8000 1750 50  0001 C CNN
+	1    8000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L robotont-motor-board:MIC5205-X.X U3
+U 1 1 9A04CEE8
+P 9200 1600
+F 0 "U3" H 8900 1950 59  0000 L BNN
+F 1 "MIC5205-X.X" H 9600 1300 59  0000 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9200 1600 50  0001 C CNN
+F 3 "" H 9200 1600 50  0001 C CNN
+	1    9200 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 E176B0C6
+P 8600 2150
+F 0 "C6" H 8660 2165 59  0000 L BNN
+F 1 "100nF" H 8660 1965 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8600 2150 50  0001 C CNN
+F 3 "" H 8600 2150 50  0001 C CNN
+	1    8600 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 493D4CA5
+P 10400 1650
+F 0 "C7" H 10460 1665 59  0000 L BNN
+F 1 "10uF" H 10460 1465 59  0000 L BNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 10400 1650 50  0001 C CNN
+F 3 "" H 10400 1650 50  0001 C CNN
+	1    10400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L robotont-motor-board-eagle-import:+5V #5V05
+U 1 1 33ACA7EC
+P 10400 1100
+F 0 "#5V05" H 10400 1100 50  0001 C CNN
+F 1 "+5V" V 10300 900 59  0000 L BNN
+F 2 "" H 10400 1100 50  0001 C CNN
+F 3 "" H 10400 1100 50  0001 C CNN
+	1    10400 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 BBE8E9EE
+P 6800 6300
+F 0 "R2" H 6650 6359 59  0000 L BNN
+F 1 "100" H 6650 6170 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6800 6300 50  0001 C CNN
+F 3 "" H 6800 6300 50  0001 C CNN
+	1    6800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 26020ECB
+P 6500 5000
+F 0 "R3" H 6350 5059 59  0000 L BNN
+F 1 "10k" H 6350 4870 59  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6500 5000 50  0001 C CNN
+F 3 "" H 6500 5000 50  0001 C CNN
+	1    6500 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 1700 1500 1700
+Wire Wire Line
+	1350 2000 1500 2000
+Wire Wire Line
+	1000 2000 1050 2000
+$Comp
+L Device:Fuse F1
+U 1 1 5E87F117
+P 7450 1400
+F 0 "F1" V 7253 1400 50  0000 C CNN
+F 1 "5A" V 7344 1400 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 7380 1400 50  0001 C CNN
+F 3 "~" H 7450 1400 50  0001 C CNN
+F 4 " C182976" V 7450 1400 50  0001 C CNN "Field4"
+	1    7450 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7600 1400 8000 1400
+$Comp
+L Device:D_Zener D1
+U 1 1 5E896752
+P 6400 2300
+F 0 "D1" V 6354 2379 50  0000 L CNN
+F 1 "MM1Z12" V 6445 2379 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6400 2300 50  0001 C CNN
+F 3 "~" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 2450 6400 2600
+$Comp
+L Device:R R1
+U 1 1 5E8AA010
+P 6400 1750
+F 0 "R1" H 6470 1796 50  0000 L CNN
+F 1 "100k" H 6470 1705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6330 1750 50  0001 C CNN
+F 3 "~" H 6400 1750 50  0001 C CNN
+	1    6400 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1900 6400 2000
+Connection ~ 6400 2000
+$Comp
+L Device:CP C10
+U 1 1 72F200C3
+P 7100 1750
+F 0 "C10" H 7145 1769 59  0000 L BNN
+F 1 "220uF" H 7145 1569 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 7100 1750 50  0001 C CNN
+F 3 "" H 7100 1750 50  0001 C CNN
+	1    7100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C4
+U 1 1 E52440EF
+P 6800 1750
+F 0 "C4" H 6845 1769 59  0000 L BNN
+F 1 "220uF" H 6845 1569 59  0000 L BNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 6800 1750 50  0001 C CNN
+F 3 "" H 6800 1750 50  0001 C CNN
+	1    6800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 5E8FA367
+P 950 3650
+F 0 "J4" H 1000 4067 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 1000 3976 50  0000 C CNN
+F 2 "footprints:CONN-TE-MICROMATCH-10X2-PTH" H 950 3650 50  0001 C CNN
+F 3 "~" H 950 3650 50  0001 C CNN
+	1    950  3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L robotont-motor-board-eagle-import:+3V3 #3V03
+U 1 1 5E930033
+P 400 3300
+F 0 "#3V03" H 400 3300 50  0001 C CNN
+F 1 "+3V3" V 300 3100 59  0000 L BNN
+F 2 "" H 400 3300 50  0001 C CNN
+F 3 "" H 400 3300 50  0001 C CNN
+	1    400  3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  3450 400  3450
+Wire Wire Line
+	400  3450 400  3400
+Text GLabel 1500 2000 2    50   Input ~ 0
+ENCB
+Text GLabel 1500 1700 2    50   Input ~ 0
+ENCA
+Text GLabel 1250 3550 2    50   Input ~ 0
+DIR1
+Text GLabel 1250 3650 2    50   Input ~ 0
+ENCA
+Wire Wire Line
+	800  1700 900  1700
+$Comp
+L power:+3.3V #3V0101
+U 1 1 5E9B1983
+P 900 1300
+F 0 "#3V0101" H 900 1150 50  0001 C CNN
+F 1 "+3.3V" H 988 1337 50  0000 L CNN
+F 2 "" H 900 1300 50  0001 C CNN
+F 3 "" H 900 1300 50  0001 C CNN
+	1    900  1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND0101
+U 1 1 5E9B23ED
+P 900 2100
+F 0 "#GND0101" H 900 1850 50  0001 C CNN
+F 1 "GND" H 988 2063 50  0000 L CNN
+F 2 "" H 900 2100 50  0001 C CNN
+F 3 "" H 900 2100 50  0001 C CNN
+	1    900  2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5E9B2DE8
+P 600 1800
+F 0 "J2" H 708 2081 50  0000 C CNN
+F 1 "ENC" H 708 1990 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 600 1800 50  0001 C CNN
+F 3 "~" H 600 1800 50  0001 C CNN
+	1    600  1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3850 1600 3850
+Wire Wire Line
+	1600 3850 1600 3900
+Wire Wire Line
+	1250 3450 1600 3450
+Wire Wire Line
+	1600 3450 1600 3850
+Connection ~ 1600 3850
+Text GLabel 750  3550 0    50   Input ~ 0
+DIR2
+Text GLabel 750  3650 0    50   Input ~ 0
+PWM
+Text GLabel 750  3750 0    50   Input ~ 0
+ENCB
+Text GLabel 1250 3750 2    50   Input ~ 0
+FAULT
+Text GLabel 750  3850 0    50   Input ~ 0
+FB
+$Comp
+L power:GNDA #PWR010
+U 1 1 5EA9D6F1
+P 6700 5350
+F 0 "#PWR010" H 6700 5100 50  0001 C CNN
+F 1 "GNDA" H 6705 5177 50  0000 C CNN
+F 2 "" H 6700 5350 50  0001 C CNN
+F 3 "" H 6700 5350 50  0001 C CNN
+	1    6700 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5300 6700 5350
+Text GLabel 7300 5200 0    50   Input ~ 0
+DIR2_D
+Text GLabel 7300 5100 0    50   Input ~ 0
+DIR1_D
+Text GLabel 7300 5400 0    50   Input ~ 0
+PWM_D
+Connection ~ 9100 5300
+Connection ~ 9100 5500
+$Comp
+L robotont-motor-board:MC33887-HSOP MC338887
+U 1 1 360DD7EA
+P 8200 5400
+F 0 "MC338887" H 7500 6050 59  0000 L BNN
+F 1 "MC33887-HSOP" H 7500 4600 59  0000 L BNN
+F 2 "Package_SO:HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias" H 8200 5400 50  0001 C CNN
+F 3 "" H 8200 5400 50  0001 C CNN
+	1    8200 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 6700 7900 6600
+Connection ~ 7900 6600
+Wire Wire Line
+	6900 4550 6900 4500
+Wire Wire Line
+	6900 4850 6900 4900
+Wire Wire Line
+	6800 6450 6800 6600
+Wire Wire Line
+	7300 5900 7100 5900
+Wire Wire Line
+	7100 5900 7100 6000
+Wire Wire Line
+	7100 6400 7900 6400
+Wire Wire Line
+	7100 6300 7100 6400
+Text GLabel 9200 5300 2    50   Input ~ 0
+MOTOR1
+Wire Wire Line
+	9100 5500 9200 5500
+Text GLabel 9200 5500 2    50   Input ~ 0
+MOTOR2
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5EAC103C
+P 1100 2700
+F 0 "J3" H 1072 2674 50  0000 R CNN
+F 1 "MOTOR" H 1072 2583 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 1100 2700 50  0001 C CNN
+F 3 "~" H 1100 2700 50  0001 C CNN
+	1    1100 2700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 900  2700 0    50   Input ~ 0
+MOTOR1
+Text GLabel 900  2800 0    50   Input ~ 0
+MOTOR2
+Wire Notes Line
+	100  250  1800 250 
+Wire Notes Line
+	1800 250  1800 4150
+Wire Notes Line
+	1800 4150 100  4150
+Wire Notes Line
+	100  4150 100  250 
+Text Notes 100  250  0    50   ~ 0
+Connectors
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 5E94E57B
+P 600 600
+F 0 "J1" H 572 482 50  0000 R CNN
+F 1 "PWR_IN" H 572 573 50  0000 R CNN
+F 2 "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal" H 600 600 50  0001 C CNN
+F 3 "~" H 600 600 50  0001 C CNN
+	1    600  600 
+	1    0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5EBF5925
+P 8000 1200
+F 0 "#PWR0101" H 8000 1050 50  0001 C CNN
+F 1 "VCC" H 8017 1373 50  0000 C CNN
+F 2 "" H 8000 1200 50  0001 C CNN
+F 3 "" H 8000 1200 50  0001 C CNN
+	1    8000 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  500  800  500 
+Wire Wire Line
+	800  600  950  600 
+Text GLabel 950  500  2    50   Input ~ 0
+VCC_IN
+Text GLabel 950  600  2    50   Input ~ 0
+GNDA_IN
+Text GLabel 4450 1400 0    50   Input ~ 0
+VCC_IN
+Text GLabel 4550 2100 0    50   Input ~ 0
+GNDA_IN
+Wire Wire Line
+	4550 2100 4600 2100
+Connection ~ 4600 2100
+Wire Wire Line
+	4600 2100 4700 2100
+$Comp
+L power:VCC #VCC0101
+U 1 1 5EC4CA30
+P 8500 4400
+F 0 "#VCC0101" H 8500 4250 50  0001 C CNN
+F 1 "VCC" H 8588 4437 50  0000 L CNN
+F 2 "" H 8500 4400 50  0001 C CNN
+F 3 "" H 8500 4400 50  0001 C CNN
+	1    8500 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND0102
+U 1 1 5E9BBC98
+P 1600 3900
+F 0 "#GND0102" H 1600 3650 50  0001 C CNN
+F 1 "GND" H 1688 3863 50  0000 L CNN
+F 2 "" H 1600 3900 50  0001 C CNN
+F 3 "" H 1600 3900 50  0001 C CNN
+	1    1600 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #GNDA0101
+U 1 1 5EAE3205
+P 7900 6700
+F 0 "#GNDA0101" H 7900 6450 50  0001 C CNN
+F 1 "GNDA" H 7988 6663 50  0000 L CNN
+F 2 "" H 7900 6700 50  0001 C CNN
+F 3 "" H 7900 6700 50  0001 C CNN
+	1    7900 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 186754B1
+P 7100 6150
+F 0 "C3" H 7160 6265 70  0000 L BNN
+F 1 "33nF" H 7160 6065 70  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7100 6150 50  0001 C CNN
+F 3 "" H 7100 6150 50  0001 C CNN
+	1    7100 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 5600 6500 5600
+Wire Wire Line
+	6500 4500 6900 4500
+Wire Wire Line
+	4300 5200 4300 4500
+Wire Wire Line
+	4300 4500 4500 4500
+Wire Wire Line
+	4500 4500 4800 4500
+Wire Wire Line
+	4800 4500 5300 4500
+Wire Wire Line
+	5300 4500 6500 4500
+Wire Wire Line
+	4300 5800 4800 5800
+Wire Wire Line
+	4800 5800 4800 4500
+Wire Wire Line
+	5300 4300 5300 4500
+Connection ~ 4800 5800
+Connection ~ 4800 4500
+Connection ~ 4500 4500
+Connection ~ 5300 4500
+Wire Wire Line
+	4300 5900 4400 5900
+Wire Wire Line
+	4400 5900 4400 6100
+Wire Wire Line
+	4800 6100 4400 6100
+Wire Wire Line
+	4300 5700 4400 5700
+Wire Wire Line
+	4400 5700 4400 5900
+Connection ~ 4400 5900
+Wire Wire Line
+	4500 4900 4500 4800
+Wire Wire Line
+	2600 5800 3000 5800
+Connection ~ 2600 5800
+Wire Wire Line
+	6500 5600 4300 5600
+Wire Wire Line
+	3000 5900 3000 6150
+Wire Wire Line
+	3000 6150 2600 6150
+Wire Wire Line
+	2600 6100 2600 6150
+$Comp
+L Device:C C1
+U 1 1 3E9ECBAC
+P 2600 5950
+F 0 "C1" H 2660 5965 59  0000 L BNN
+F 1 "100nF" H 2660 5765 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2600 5950 50  0001 C CNN
+F 3 "" H 2600 5950 50  0001 C CNN
+	1    2600 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 761BF58F
+P 4800 5950
+F 0 "C2" H 4860 5965 59  0000 L BNN
+F 1 "100nF" H 4860 5765 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 5950 50  0001 C CNN
+F 3 "" H 4800 5950 50  0001 C CNN
+	1    4800 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L robotont-motor-board:SI8452-IS SI8652
+U 1 1 6F07B0E7
+P 3600 5500
+F 0 "SI8652" H 3200 5950 70  0000 L BNN
+F 1 "SI8652-IS" H 3200 4900 70  0000 L BNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3600 5500 50  0001 C CNN
+F 3 "" H 3600 5500 50  0001 C CNN
+	1    3600 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 7D0E483A
+P 2300 5400
+F 0 "C8" H 2350 5250 59  0000 L BNN
+F 1 "100nF" H 2000 5500 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2300 5400 50  0001 C CNN
+F 3 "" H 2300 5400 50  0001 C CNN
+	1    2300 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 38F91BEE
+P 4500 4650
+F 0 "C9" H 4560 4665 59  0000 L BNN
+F 1 "100nF" H 4560 4465 59  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4500 4650 50  0001 C CNN
+F 3 "" H 4500 4650 50  0001 C CNN
+	1    4500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5E93FF19
+P 2300 5550
+F 0 "#PWR04" H 2300 5300 50  0001 C CNN
+F 1 "GND" H 2305 5377 50  0000 C CNN
+F 2 "" H 2300 5550 50  0001 C CNN
+F 3 "" H 2300 5550 50  0001 C CNN
+	1    2300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 5200 2300 5250
+Wire Wire Line
+	2300 5200 2600 5200
+$Comp
+L power:GND #GND0103
+U 1 1 5EA0B95B
+P 2600 6200
+F 0 "#GND0103" H 2600 5950 50  0001 C CNN
+F 1 "GND" H 2688 6163 50  0000 L CNN
+F 2 "" H 2600 6200 50  0001 C CNN
+F 3 "" H 2600 6200 50  0001 C CNN
+	1    2600 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6200 2600 6150
+Connection ~ 2600 6150
+Text GLabel 3000 5300 0    50   Input ~ 0
+DIR2
+Text GLabel 3000 5400 0    50   Input ~ 0
+DIR1
+Text GLabel 3000 5600 0    50   Input ~ 0
+FAULT
+Text GLabel 3000 5700 0    50   Input ~ 0
+FB
+Text GLabel 4300 5300 2    50   Input ~ 0
+DIR2_D
+Text GLabel 4300 5400 2    50   Input ~ 0
+DIR1_D
+Text GLabel 3000 5500 0    50   Input ~ 0
+PWM
+Text GLabel 4300 5500 2    50   Input ~ 0
+PWM_D
+$Comp
+L power:+5V #5V0101
+U 1 1 5EA60BB6
+P 5300 4300
+F 0 "#5V0101" H 5300 4150 50  0001 C CNN
+F 1 "+5V" H 5388 4337 50  0000 L CNN
+F 2 "" H 5300 4300 50  0001 C CNN
+F 3 "" H 5300 4300 50  0001 C CNN
+	1    5300 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #GNDA0102
+U 1 1 5EA62D85
+P 4400 6150
+F 0 "#GNDA0102" H 4400 5900 50  0001 C CNN
+F 1 "GNDA" H 4400 6000 50  0000 C CNN
+F 2 "" H 4400 6150 50  0001 C CNN
+F 3 "" H 4400 6150 50  0001 C CNN
+	1    4400 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5150 2600 5200
+Connection ~ 2600 5200
+Wire Wire Line
+	2600 5200 2600 5800
+Wire Wire Line
+	2600 5200 3000 5200
+$Comp
+L power:GNDA #GNDA0103
+U 1 1 5EA676EC
+P 4500 4900
+F 0 "#GNDA0103" H 4500 4650 50  0001 C CNN
+F 1 "GNDA" H 4588 4863 50  0000 L CNN
+F 2 "" H 4500 4900 50  0001 C CNN
+F 3 "" H 4500 4900 50  0001 C CNN
+	1    4500 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6150 4400 6100
+Connection ~ 4400 6100
+$Comp
+L power:+3.3V #3V0102
+U 1 1 5E93DBFF
+P 2600 5150
+F 0 "#3V0102" H 2600 5000 50  0001 C CNN
+F 1 "+3.3V" H 2688 5187 50  0000 L CNN
+F 2 "" H 2600 5150 50  0001 C CNN
+F 3 "" H 2600 5150 50  0001 C CNN
+	1    2600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR0102
+U 1 1 5ECDE09E
+P 6200 2700
+F 0 "#PWR0102" H 6200 2450 50  0001 C CNN
+F 1 "GNDA" H 6205 2527 50  0000 C CNN
+F 2 "" H 6200 2700 50  0001 C CNN
+F 3 "" H 6200 2700 50  0001 C CNN
+	1    6200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5ECFFA4D
+P 10900 1650
+F 0 "D2" V 10939 1533 50  0000 R CNN
+F 1 "LED" V 10848 1533 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 10900 1650 50  0001 C CNN
+F 3 "~" H 10900 1650 50  0001 C CNN
+	1    10900 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 1400 10900 1400
+Wire Wire Line
+	10900 1400 10900 1500
+$Comp
+L Device:R R4
+U 1 1 5ED3A752
+P 10900 2150
+F 0 "R4" H 10970 2196 50  0000 L CNN
+F 1 "2k2" H 10970 2105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10830 2150 50  0001 C CNN
+F 3 "~" H 10900 2150 50  0001 C CNN
+	1    10900 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10900 1800 10900 2000
+Wire Wire Line
+	10900 2300 10900 2600
+Wire Wire Line
+	10900 2600 10400 2600
+Connection ~ 10400 2600
+$EndSCHEMATC
