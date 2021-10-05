@@ -1,0 +1,28 @@
+### Module positions - created on Tue Oct  5 12:56:00 2021 ###
+### Printed by Pcbnew version kicad 5.1.7-a382d34a8~88~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val            Package                                                    PosX       PosY       Rot  Side
+C1        100nF          C_0603_1608Metric                                      110.3630  -101.4729  270.0000  top
+C2        100nF          C_0603_1608Metric                                      124.6886  -101.5238  270.0000  top
+C3        33nF           C_0603_1608Metric                                      127.9398   -71.3358   90.0000  top
+C5        10uF           C_1206_3216Metric                                      135.6106   -70.0502  270.0000  top
+C6        100nF          C_0603_1608Metric                                      124.0790   -65.4557   90.0000  top
+C7        10uF           C_1206_3216Metric                                      119.0722   -69.4944  180.0000  top
+C8        100nF          C_0603_1608Metric                                      110.9345   -92.0750   90.0000  top
+C9        100nF          C_0603_1608Metric                                      120.2944   -90.6272  180.0000  top
+D1        MM1Z12         D_SOD-123                                              128.5748   -59.4604  270.0000  top
+D2        LED            LED_0603_1608Metric                                    119.6087   -67.4624    0.0000  top
+F1        5A             Fuse_1206_3216Metric                                   130.9370   -59.6676   90.0000  top
+MC338887  MC33887-HSOP   HSOP-20-1EP_11.0x15.9mm_P1.27mm_SlugDown_ThermalVias   129.8425   -81.0000   90.0000  top
+R1        100k           R_0603_1608Metric                                      129.9465   -55.4482  180.0000  top
+R2        100            R_0603_1608Metric                                      133.8073   -90.7542    0.0000  top
+R3        10k            R_0603_1608Metric                                      126.3396   -99.9489   90.0000  top
+R4        2k2            R_0603_1608Metric                                      116.1287   -67.4624  180.0000  top
+R5        560            R_0603_1608Metric                                      113.0045   -78.6765  180.0000  top
+R6        560            R_0603_1608Metric                                      113.0680   -81.1530  180.0000  top
+R7        10k            R_0603_1608Metric                                      124.1171   -71.3612  270.0000  top
+U1        NTMS4807N      SO-8_3.9x4.9mm_P1.27mm                                 123.5964   -57.3532  180.0000  top
+U2        Si8641BD-B-IS  SOIC-16W_7.5x10.3mm_P1.27mm                            117.7435   -97.5360    0.0000  top
+U3        MIC5205-X.X    SOT-23-5                                               126.9492   -65.1764  270.0000  top
+## End

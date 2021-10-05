@@ -1,4 +1,4 @@
-update=E 30 märts 2020 01:56:05 EEST
+update=N 09 apr   2020 14:59:43 EEST
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=robotont-motor-board.net
+LastNetListRead=robotont-driver-board.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -240,7 +240,7 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=motor
+Name=MotorClass
 Clearance=0.4
 TrackWidth=1.5
 ViaDiameter=0.8
@@ -252,8 +252,8 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=robotont-motor-board.kicad_wks
-PlotDirectoryName=
+PageLayoutDescrFile=robotont-driver-board.kicad_wks
+PlotDirectoryName=pdf/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew

@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Robotont driver board"
-Date "2020-03-30"
+Date "2021-10-05"
 Rev "2.1"
-Comp "Clearbot SIA"
-Comment1 "Apache 2.0 Licence"
+Comp "University of Tartu"
+Comment1 "Licensed under CERN-OHL-P"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -209,7 +209,7 @@ F 4 "C13585" H 6900 1650 50  0001 C CNN "LCSC #"
 	1    0    0    -1  
 $EndComp
 $Comp
-L robotont-motor-board:MIC5205-X.X U3
+L robotont-driver-board:MIC5205-X.X U3
 U 1 1 9A04CEE8
 P 8100 1500
 F 0 "U3" H 7800 1850 59  0000 L BNN
@@ -346,14 +346,14 @@ F 3 "~" H 1850 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L robotont-motor-board-eagle-import:+3V3 #3V03
+L power:+3V3 #3V03
 U 1 1 5E930033
-P 1300 4050
-F 0 "#3V03" H 1300 4050 50  0001 C CNN
-F 1 "+3V3" V 1200 3850 59  0000 L BNN
-F 2 "" H 1300 4050 50  0001 C CNN
-F 3 "" H 1300 4050 50  0001 C CNN
-	1    1300 4050
+P 1300 4150
+F 0 "#3V03" H 1300 4150 50  0001 C CNN
+F 1 "+3V3" V 1200 3950 59  0000 L BNN
+F 2 "" H 1300 4150 50  0001 C CNN
+F 3 "" H 1300 4150 50  0001 C CNN
+	1    1300 4150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -442,7 +442,7 @@ PWM_D
 Connection ~ 9600 4300
 Connection ~ 9600 4500
 $Comp
-L robotont-motor-board:MC33887-HSOP MC338887
+L robotont-driver-board:MC33887-HSOP MC338887
 U 1 1 360DD7EA
 P 8700 4400
 F 0 "MC338887" H 8000 5050 59  0000 L BNN
@@ -506,7 +506,7 @@ U 1 1 5E94E57B
 P 1500 1350
 F 0 "J1" H 1472 1232 50  0000 R CNN
 F 1 "PWR_IN" H 1472 1323 50  0000 R CNN
-F 2 "robotont-motor-board:KF2510-2AWG" H 1500 1350 50  0001 C CNN
+F 2 "robotont-driver-board:KF2510-2AWG" H 1500 1350 50  0001 C CNN
 F 3 "~" H 1500 1350 50  0001 C CNN
 	1    1500 1350
 	1    0    0    1   
@@ -920,7 +920,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 2000 3600 2100
 $Comp
-L robotont-motor-board:NTMS4807N U1
+L robotont-driver-board:NTMS4807N U1
 U 1 1 5EC3DCEA
 P 4300 2200
 F 0 "U1" H 4300 1492 69  0000 C CNN
@@ -989,4 +989,102 @@ F 3 "~" H 1200 5450 50  0001 C CNN
 	1    1200 5450
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 5EBBD2CC
+P 1150 6350
+F 0 "R?" H 1220 6396 50  0001 L CNN
+F 1 "R" H 1220 6350 50  0000 L CNN
+F 2 "" V 1080 6350 50  0001 C CNN
+F 3 "~" H 1150 6350 50  0001 C CNN
+	1    1150 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EBBEA4A
+P 1150 6750
+F 0 "C?" H 1265 6796 50  0001 L CNN
+F 1 "C" H 1265 6750 50  0000 L CNN
+F 2 "" H 1188 6600 50  0001 C CNN
+F 3 "~" H 1150 6750 50  0001 C CNN
+	1    1150 6750
+	1    0    0    -1  
+$EndComp
+Text Label 1150 6050 0    50   ~ 0
+Umax
+$Comp
+L power:GND #PWR?
+U 1 1 5EBBF95C
+P 1150 7050
+F 0 "#PWR?" H 1150 6800 50  0001 C CNN
+F 1 "GND" H 1155 6877 50  0000 C CNN
+F 2 "" H 1150 7050 50  0001 C CNN
+F 3 "" H 1150 7050 50  0001 C CNN
+	1    1150 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 7050 1150 6900
+Wire Wire Line
+	1150 6600 1150 6550
+Wire Wire Line
+	1150 6200 1150 6050
+Text Label 1450 6550 0    50   ~ 0
+U
+Wire Wire Line
+	1450 6550 1150 6550
+Connection ~ 1150 6550
+Wire Wire Line
+	1150 6550 1150 6500
+$Comp
+L Device:R R?
+U 1 1 5EC1777C
+P 2350 6450
+F 0 "R?" H 2420 6496 50  0001 L CNN
+F 1 "R" H 2420 6450 50  0000 L CNN
+F 2 "" V 2280 6450 50  0001 C CNN
+F 3 "~" H 2350 6450 50  0001 C CNN
+	1    2350 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EC17782
+P 2350 6850
+F 0 "C?" H 2465 6896 50  0001 L CNN
+F 1 "C" H 2465 6850 50  0000 L CNN
+F 2 "" H 2388 6700 50  0001 C CNN
+F 3 "~" H 2350 6850 50  0001 C CNN
+	1    2350 6850
+	1    0    0    -1  
+$EndComp
+Text Label 2350 6150 0    50   ~ 0
+0V
+$Comp
+L power:GND #PWR?
+U 1 1 5EC17789
+P 2350 7150
+F 0 "#PWR?" H 2350 6900 50  0001 C CNN
+F 1 "GND" H 2355 6977 50  0000 C CNN
+F 2 "" H 2350 7150 50  0001 C CNN
+F 3 "" H 2350 7150 50  0001 C CNN
+	1    2350 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 7150 2350 7000
+Wire Wire Line
+	2350 6700 2350 6650
+Wire Wire Line
+	2350 6300 2350 6150
+Text Label 2650 6650 0    50   ~ 0
+U
+Wire Wire Line
+	2650 6650 2350 6650
+Connection ~ 2350 6650
+Wire Wire Line
+	2350 6650 2350 6600
+Text Notes 4750 5600 0    50   ~ 0
+As current feedback is not currently being used,\nyou can omit R2, R7 and use cheaper MC33886 instead.
 $EndSCHEMATC

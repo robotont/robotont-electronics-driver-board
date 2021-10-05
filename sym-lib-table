@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name robotont-driver-board)(type Legacy)(uri ${KIPRJMOD}/lib_sym/robotont-driver-board.lib)(options "")(descr ""))
+)

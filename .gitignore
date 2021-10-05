@@ -24,3 +24,4 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+!robotont-driver-board-bom-jlcpcb.csv

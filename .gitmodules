@@ -1,0 +1,3 @@
+[submodule "libs/elec-parts-library"]
+	path = libs/elec-parts-library
+	url = https://github.com/rLoopTeam/elec-parts-library.git

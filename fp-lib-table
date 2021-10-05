@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name robotont-driver-board)(type KiCad)(uri ${KIPRJMOD}/lib_fp.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/libs/elec-parts-library/footprints.pretty)(options "")(descr ""))
+)
