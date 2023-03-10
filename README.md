@@ -1,4 +1,4 @@
-# robotont-driver-board
+# robotont-electronics-driver-board
 The repository contains KiCAD schematics and PCB layout for the motor driver board.
 The [production](Production/) folder contains prepared gerbers with pos file ready to order a from e.g. JLCPCB.
 
